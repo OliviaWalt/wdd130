@@ -2,18 +2,20 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://knowledge.hubspot.com/website-pages/use-fonts-in-hubspot');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Nova+Mono&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
+  /* I got my idea for my colors from a color pallet, however I changes their exact hues and found them in this page... so I dont have a website klink to them*/
   --primary-color: #194440   ;
   --secondary-color: #a5d4c3 ;
   --accent1-color: #644110;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Bradley_Hand"; /* Change Fonts*/
-  --paragraph-font: Lato, "Verdana", sans-serif; /* Change Fonts*/
+  /* Why wont my font actually change?*/
+  --heading-font: "Macondo"; 
+  --paragraph-font: "Nova_Mono", "Verdana", sans-serif; /* Change Fonts*/
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #194440;  /* headlines on a white background */ 
