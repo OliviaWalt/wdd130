@@ -1,0 +1,32 @@
+*{
+    background-color: pink;
+}
+body{
+text-align:center
+}
+.maincontent{
+    width: 450px;
+    background-color: pink;
+    text-align: center;
+    margin: 0 auto
+}
+h1:hover{
+    color: black;
+}
+h1{
+    color:white
+}
+ol{
+    text-align:left
+}
+.quote{
+    color: white;
+}
+.largequote{
+    font-size: xx-large;
+    color: white
+}
+.smallquote{
+    font-size: xx-small;
+}
+    

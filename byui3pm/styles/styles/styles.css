@@ -1,0 +1,13 @@
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+}
