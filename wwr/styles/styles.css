@@ -57,20 +57,19 @@ body{
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: repeat(10, 1fr);
 }
 header{
     background-color: #194440;
     font-family: "mocondo", "verdana", sans-serif;
     display: grid;
-    grid-template-columns: 150px, auto;
+    grid-template-columns: 150px auto;
 }
 h2 {
     margin: 0;
 }
 .home-title{
-    color: #194440;
+    color: #ffffff;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -109,7 +108,7 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 
 }
-.rivers-card, .carmping-card, .rapids-card{
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .rivers-card {
@@ -126,7 +125,7 @@ nav a:hover{
 }
 #background{
     background-color: #c6e4d9;
-    grid-column: 8/10;
+    grid-column: 1/11;
     grid-row: 4/9;
 }
 .card-img {
