@@ -108,6 +108,14 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 
 }
+.intro {
+    text-align: center;
+    color: #194440;
+}
+.canyonimg {
+    width: 100%;
+    text-align: center;
+}
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
