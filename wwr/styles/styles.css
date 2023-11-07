@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Nova+Mono&display=swap');
 *{
-    font-size: 22px;
+    font-size: 20px;
 }
 .id{
     max-width: 1600px;
@@ -111,10 +111,22 @@ nav a:hover{
 .intro {
     text-align: center;
     color: #194440;
+    font-size: 2em;
 }
 .canyonimg {
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+}
+.to-see {
+    font-size: 1.5em;
+}
+div.text {
+    font-size: .75em;
+    font-family: "bradley_hand", "verdana", sans-serif;
+    color: #194440;
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
