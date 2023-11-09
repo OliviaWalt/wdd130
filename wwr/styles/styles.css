@@ -123,8 +123,11 @@ nav a:hover{
 }
 .to-see {
     font-size: 1.5em;
+    margin: 5%;
 }
 div.text {
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: .75em;
     font-family: "bradley_hand", "verdana", sans-serif;
     color: #194440;
